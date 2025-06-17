@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <link rel="icon" href="./images/Favicon.png" type="image/jpg">
+
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo-holder">
+            <div class="logo">A</div>
+            <div class="logo-text">My Portfolio</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="mailto:ajeetsinghrawat1999@gmail.com" class="button">Contact Me</a>
+                </li>
+            </ul>
+            <a href="#" class="mobile-toggle" onclick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10" />
+                </svg>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero container">
+            <div class="hero-blue">
+                <div>
+                    <h1><small>Hi I'm</small>
+                        Ajeet Singh Rawat
+                    </h1>
+                    <p>
+                        Isme Apne Baare me likhna h.
+                        <span> apne interested topic ke baare me likhna h. </span>
+                    </p>
+                    <div class="call-to-action">
+                        <a href="./Ajeet Rawat(Resume).pdf.pdf" target="_blank" class="button black">
+                            View Resume
+                        </a>
+                        <a href="mailto:ajeetsinghrawat1999@gmail.com" target="_blank" class="button white">
+                            Contact Me
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/AjeetRawat3020" target="_blank">
+                            <img src="./images/github.png" alt="Github" width="48" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/ajeet-singh-rawat-384a7926b/" target="_blank">
+                            <img src="./images/linkedin.png" alt="Linkedin" width="48" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-yellow">
+                <img src="./images/hero-image1.png" alt="Ajeet Singh Rawat" width="100%" />
+            </div>
+        </section>
+        <section class="logos container">
+            <div class="marquee">
+                <div class="track">
+                    <img src="./images/C++.png" alt="C++" width="128" />
+                    <img src="./images/Java.png" alt="Java" width="150" />
+                    <img src="./images/html.png" alt="HTML" width="128" />
+                    <img src="./images/css.png" alt="CSS" width="128" />
+                    <img src="./images/javascript.png" alt="JS" width="128" />
+                    <img src="./images/react.png" alt="React" width="128" />
+                    <img src="./images/vscode.png" alt="VS Code" width="128" />
+                    <img src="./images/python.png" alt="Python" width="128" />
+                    <img src="./images/C++.png" alt="C++" width="128" />
+                    <img src="./images/Java.png" alt="Java" width="150" />
+                    <img src="./images/html.png" alt="HTML" width="128" />
+                    <img src="./images/css.png" alt="CSS" width="128" />
+                    <img src="./images/javascript.png" alt="JS" width="128" />
+                    <img src="./images/react.png" alt="React" width="128" />
+                    <img src="./images/vscode.png" alt="VS Code" width="128" />
+                    <img src="./images/python.png" alt="Python" width="128" />
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="skills container">
+            <h2>
+                <small>About Me</small>
+                Skills
+            </h2>
+            <div class="holder-blue">
+                <div class="left-column">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                    </ul>
+                    <!-- <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>PHP</li>
+                        <li>Ruby</li>
+                    </ul> -->
+                </div>
+                <div class="right-column">
+                    <h3>A bit about me</h3>
+                    <p>
+                        Hi I'm Ajeet Singh Rawat. Few line about yourself!</p>
+                    <p>
+                        Kuch work experience and projects ke baare me likhna h
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="work-experience container">
+            <h2>
+                <small>Recent</small>
+                Work Experience
+            </h2>
+            <div class="jobs">
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./images/workplace-1.jpg" alt="workplace 1 -" width="100%" />
+                            <figcaption>
+                                Workplace - 1
+                            </figcaption>
+                        </div>
+                    </figure>
+                    <h3>Workplace - 1(kaha kaam kiya h)</h3>
+                    <div>2000-2020(kb se kb tk)</div>
+                    <p>Description of a workplace</p>
+                </article>
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./images/workplace-2.jpg" alt="workplace 2 -" width="100%" />
+                            <figcaption>Workplace - 2</figcaption>
+                        </div>
+                    </figure>
+                    <h3>Workplace - 2(kaha kaam kiya h)</h3>
+                    <div>2000-2020(kb se kb tk)</div>
+                    <p>Description of a workplace</p>
+                </article>
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./images/workplace-3.jpg" alt="workplace 3 -" width="100%" />
+                            <figcaption>Workplace - 3</figcaption>
+                        </div>
+                    </figure>
+                    <h3>Workplace - 3(kaha kaam kiya h)</h3>
+                    <div>2000-2020(kb se kb tk)</div>
+                    <p>Description of a workplace</p>
+                </article>
+            </div>
+        </section>
+        <section id="projects" class="bento container">
+            <h2>
+                <small>
+                    Previous
+                </small>
+                Completed Projects
+            </h2>
+            <div class="bento-grid">
+                <a href="https://github.com/AjeetRawat3020/Myntra-Clone" class="bento-item" target="_blank">
+                    <img src="./images/Myntra.png" alt="Myntra-Clone" width="100%" />
+                </a>
+                <a href="https://github.com/AjeetRawat3020/Rock-Paper-Scissor-Game" class="bento-item" target="_blank">
+                    <img src="./images/Rock-Paper-scessior.png" alt="Rock-Paper-scessior" width="100%" />
+                </a>
+                <a href="https://github.com/AjeetRawat3020/Virtual-Assistant" class="bento-item">
+                    <img src="./images/Virtual Assistant.png" alt="Virtual Assistant" width="100%" />
+                </a>
+                <a href="#" class="bento-item">
+                    <img src="./images/bento-5.jpg" alt="Bunbury" width="100%" />
+                </a>
+                <a href="#" class="bento-item">
+                    <img src="./images/bento-6.jpg" alt="Running" width="100%" />
+                </a>
+                <a href="#" class="bento-item">
+                    <img src="./images/bento-7.jpg" alt="School" width="100%" />
+                </a>
+            </div>
+        </section>
+        <section class="chatbot container">
+            <h2>
+                <small>
+                    Talk to me
+                </small>
+            </h2>
+            <div class="chatbot-blue">
+                <div class="chat-info">
+                    <h3>Give Name a Chatbox</h3>
+                    <p>I've put together a chatbox here which knows all my skills, work experience and has a copy of my
+                        CV/Resume. You can use it to ask questions about me to get a better idea of who I am and what
+                        I've done.</p>
+                    <p>You can also download my resume here if you want to take a look at it. I'm currently looking for
+                        a new opporunities so if you have a project you think I'd be a good fit for, please get in
+                        touch!</p>
+                    <a href="./Ajeet Rawat(Resume).pdf.pdf" class="button black">Download Resume</a>
+                </div>
+                <section class="chat-box">
+                    <div >
+                        <!-- ✅ Embedded Chatbot Iframe -->
+                        <iframe src="https://www.chatbase.co/chatbot-iframe/LphorwlqMa5lucrlTbOcB" width="100%"
+                            height="500" frameborder="0"
+                            style="border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.1);"></iframe>
+                    </div>
+                </section>
+                <!-- ✅ Floating Chatbot Script (Bottom-Right) -->
+                <script>
+                    window.chatbaseConfig = {
+                        chatbotId: "LphorwlqMa5lucrlTbOcB"
+                    }
+                </script>
+                <script src="https://www.chatbase.co/embed.min.js" id="chatbase-script" defer></script>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
