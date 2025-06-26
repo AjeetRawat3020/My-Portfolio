@@ -11,8 +11,13 @@
         href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="./script.js"></script>
     <link rel="icon" href="./images/Favicon.png" type="image/jpg">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        (function () { emailjs.init('ruWv11EggYb3vtJoA'); })();
+    </script>
+    <script src="script.js" defer></script>
+
 
 </head>
 
@@ -34,7 +39,7 @@
                     <a href="#projects">Projects</a>
                 </li>
                 <li>
-                    <a href="mailto:ajeetsinghrawat1999@gmail.com" class="button">Contact Me</a>
+                    <a href="#contact" class="button">Contact Me</a>
                 </li>
             </ul>
             <a href="#" class="mobile-toggle" onclick="toggleMobileMenu();">
@@ -60,7 +65,7 @@
                         <a href="./Ajeet Rawat(Resume).pdf.pdf" target="_blank" class="button black">
                             View Resume
                         </a>
-                        <a href="mailto:ajeetsinghrawat1999@gmail.com" target="_blank" class="button white">
+                        <a href="#contact" class="button white">
                             Contact Me
                         </a>
                     </div>
@@ -69,7 +74,7 @@
                             <img src="./images/github.png" alt="Github" width="48" />
                         </a>
                         <a href="https://www.linkedin.com/in/ajeet-singh-rawat-384a7926b/" target="_blank">
-                            <img src="./images/linkedin.png" alt="Linkedin" width="48" />
+                            <img src="./images/linkedin1.png" alt="Linkedin" width="48" />
                         </a>
                     </div>
                 </div>
@@ -207,17 +212,17 @@
                 <a href="https://github.com/AjeetRawat3020/Rock-Paper-Scissor-Game" class="bento-item" target="_blank">
                     <img src="./images/Rock-Paper-scessior.png" alt="Rock-Paper-scessior" width="100%" />
                 </a>
-                <a href="https://github.com/AjeetRawat3020/Virtual-Assistant" class="bento-item">
-                    <img src="./images/Virtual Assistant.png" alt="Virtual Assistant" width="100%" />
+                <a href="https://github.com/AjeetRawat3020/Virtual-Assistant" class="bento-item" target="_blank">
+                    <img src="./images/bento-7.jpg" alt="Virtual Assistant" width="100%" />
                 </a>
-                <a href="#" class="bento-item">
-                    <img src="./images/bento-5.jpg" alt="Bunbury" width="100%" />
+                <a href="https://github.com/AjeetRawat3020/Tic-Tac-Toe-Game" class="bento-item" target="_blank">
+                    <img src="./images/Tic-Tac-Toe.png" alt="Tic-Tac-Toe-Game" width="100%" />
                 </a>
-                <a href="#" class="bento-item">
-                    <img src="./images/bento-6.jpg" alt="Running" width="100%" />
+                <a href="https://github.com/AjeetRawat3020/Virtual-Assistant" class="bento-item"target="_blank">
+                    <img src="./images/Virtual Assistant.png" alt="Virtual-Assistant" width="100%" />
                 </a>
-                <a href="#" class="bento-item">
-                    <img src="./images/bento-7.jpg" alt="School" width="100%" />
+                <a href="https://github.com/AjeetRawat3020" class="bento-item" target="_blank">
+                    <img src="./images/Amazon_Clone.png" alt="Amazon_Clone" width="100%" />
                 </a>
             </div>
         </section>
@@ -255,7 +260,63 @@
                 <script src="https://www.chatbase.co/embed.min.js" id="chatbase-script" defer></script>
             </div>
         </section>
+        <div class="edit">
+            <div class="image">
+                <img src="images/ContactMe.png" alt="">
+            </div>
+            <div id="contact" class="contact-form-container">
+                <h2>Contact Me</h2>
+                <form id="js-contact-form">
+                    <label for="contact-name" class="sr-only"></label>
+                    <input id="contact-name" type="text" name="user_name" placeholder="Your Name" required>
+
+                    <label for="contact-email" class="sr-only"></label>
+                    <input id="contact-email" type="email" name="user_email" placeholder="Your Email" required>
+
+                    <label for="contact-suject" class="sr-only"></label>
+                    <input id="contact-subject" type="text" name="subject" placeholder="Subject" required>
+
+                    <label for="contact-message" class="sr-only"></label>
+                    <textarea id="contact-message" name="message" placeholder="Your Message" rows="4"
+                        required></textarea>
+                    <button type="submit">Send</button>
+                    <div id="contact-status" aria-live="polite" style="margin-top:0.5rem;"></div>
+                </form>
+            </div>
+        </div>
+
     </main>
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-col contact-info">
+                <h3>Contact</h3>
+                <p>📍 New Delhi, India</p>
+                <p>📧 <a href="ajeetsinghrawat1999@gmail.com">ajeetsinghrawat1999@gmail.com</a></p>
+                <p>📞 <a href="tel:+91-9354527493">+91-9354527493</a></p>
+            </div>
+
+            <div class="footer-col follow-me">
+                <h3>Follow Me</h3>
+                <div class="social-icons">
+                    <a href="https://github.com/AjeetRawat3020" target="_blank" title="GitHub">
+                        <img src="./images/github.png" alt="GitHub" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/ajeet-singh-rawat-384a7926b/" target="_blank" title="LinkedIn">
+                        <img src="./images/linkedin1.png" alt="LinkedIn" />
+                    </a>
+                </div>
+                <p><a href="#top" class="scroll-top">⬆ Back to Top</a></p>
+            </div>
+        </div>
+
+        <div class="footer-note">
+            © <span id="year"></span> Ajeet Singh Rawat. All rights reserved.
+        </div>
+    </footer>
+
+
 </body>
 
 </html>
