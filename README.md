@@ -4,7 +4,7 @@ Welcome to my personal portfolio website built using **HTML, CSS, JavaScript**, 
 
 ## 🚀 Live Preview
 
-🔗 [View Live Site](https://your-github-username.github.io/portfolio-project/) *(Replace with your actual link)*
+🔗 [View Live Site](https://ajeetrawat3020.github.io/My-Portfolio/)
 
 ---
 
